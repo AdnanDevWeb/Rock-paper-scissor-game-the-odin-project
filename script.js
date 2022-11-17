@@ -8,9 +8,6 @@ function getPlayerChoice(){
     const randomChoice = Math.floor(Math.random()*choices.length)
     return choices[randomChoice]
 }
-console.log(getComputerChoice())
-console.log(getPlayerChoice())
-
 
 function playRound(computerSelection , playerSelection){
     //draw
@@ -52,4 +49,10 @@ function playRound(computerSelection , playerSelection){
     else if (computerSelection.toUpperCase() === "PAPER" && playerSelection.toUpperCase() === "SCISSORS"){
         return "Player win ! Scissors beats paper"
     }
+}
+while(true){
+    const computerChoice = getComputerChoice();
+    console.log(computerChoice)
+    const playerChoice= prompt("enter your play : ");
+    console.log(playRound(computerChoice,playerChoice));
 }
