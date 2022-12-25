@@ -1,0 +1,30 @@
+img[alt="computer-choice"]{
+    rotate: 180deg;
+    margin-left: calc(50% - 100px);
+    margin-top: 70px;
+    width: 200px;
+}
+.lets-play{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pickOption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+}
+.pick
+.picks-container{
+    display: flex;
+}
