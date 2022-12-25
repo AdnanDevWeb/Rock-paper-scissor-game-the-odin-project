@@ -50,9 +50,3 @@ function playRound(computerSelection , playerSelection){
         return "Player win ! Scissors beats paper"
     }
 }
-while(true){
-    const computerChoice = getComputerChoice();
-    console.log(computerChoice)
-    const playerChoice= prompt("enter your play : ");
-    console.log(playRound(computerChoice,playerChoice));
-}
