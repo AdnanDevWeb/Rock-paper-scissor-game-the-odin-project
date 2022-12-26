@@ -1,0 +1,80 @@
+img[alt="computer-choice"]{
+    rotate: 180deg;
+    margin-left: calc(50% - 100px);
+    margin-top: 70px;
+    width: 200px;
+}
+.lets-play{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5em;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pickOption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+}
+.result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
+.playAgain{
+    background: #9C27B0;
+    border-radius: 10px;
+    width: 184px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+      
+    /* COR TEXTO */
+
+    color: #FFFFFF;
+    height: 46px;
+}
+.pick{
+    width: 70px;
+    height: fit-content;
+}
+.picks-container{
+    display: flex;
+    padding-top: 90px;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.pick-div{
+    position: relative;
+}
+.pick-div::after{
+    content: '';
+    background: #9C27B0;
+    border-radius: 116.112px;
+    position: absolute;
+    width: 68.04px;
+    height: 68.04px;
+    scale: 1.6;
+    z-index: -3;
+    left: -10px;
+    bottom: 12px;
+}

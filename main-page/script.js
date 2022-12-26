@@ -50,3 +50,6 @@ function playRound(computerSelection , playerSelection){
         return "Player win ! Scissors beats paper"
     }
 }
+
+// <p class="result">IT’S A DRAW</p>
+// <button class="playAgain">PLAY AGAIN</button>
