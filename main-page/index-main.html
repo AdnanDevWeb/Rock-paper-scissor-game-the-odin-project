@@ -10,19 +10,25 @@
 <body>
     <img src="../imgs/rock.svg" alt="computer-choice">
     <section data-container>
+
         <div class="middleText">
-            <h1 class="lets-play">LET'S PLAY!</h1>
-            <p class="pickOption">PICK AN OPTION</p>
-            
+            <h1 class="lets-play toHide">LET'S PLAY!</h1>
+            <p class="pickOption toHide">PICK AN OPTION</p>
+
+            <p class="result toShow">IT’S A DRAW</p>
+            <button class="playAgain toShow">PLAY AGAIN</button>
         </div>
-       
+       <div class="pickShower">
+        <img src="" alt="" class="humanChoice">
+       </div>
         <section class="picks-container">
-            <div class="pick-div" ><img src="../imgs/paper.svg" alt="" class="pick pickOne"> </div>
-            <div class="pick-div"><img src="../imgs/rock.svg" alt="" class="pick pickTwo"></div>
-            <div class="pick-div"><img src="../imgs/scissor.svg" alt="" class="pick pickThree"></div>
+            <div class="pick-div" ><img src="../imgs/paper.svg" alt="paper" class="pick pickOne"> </div>
+            <div class="pick-div"><img src="../imgs/rock.svg" alt="rock" class="pick pickTwo"></div>
+            <div class="pick-div"><img src="../imgs/scissor.svg" alt="scissors" class="pick pickThree"></div>
 
         </section>
     </section>
 
+    <script src="./script.js"></script>
 </body>
 </html>

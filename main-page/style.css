@@ -1,7 +1,7 @@
 img[alt="computer-choice"]{
     rotate: 180deg;
     margin-left: calc(50% - 100px);
-    margin-top: 70px;
+    margin-top: 30px;
     width: 200px;
 }
 .lets-play{
@@ -35,11 +35,11 @@ img[alt="computer-choice"]{
 .playAgain{
     background: #9C27B0;
     border-radius: 10px;
-    width: 184px;
+    width: 230px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.3em;
     line-height: 21px;
     text-align: center;
     text-align: center;
@@ -47,15 +47,25 @@ img[alt="computer-choice"]{
     display: block;
     margin: 0 auto;
     text-align: center;
-      
+    margin-bottom: 50px;
     /* COR TEXTO */
 
     color: #FFFFFF;
-    height: 46px;
+    height: 66px;
 }
 .pick{
     width: 70px;
     height: fit-content;
+    cursor: pointer;
+}
+.toShow{
+    display: none;
+}
+.humanChoice{
+    max-width: 200px;
+    height: fit-content;
+    margin-left: calc(50% - 100px);
+    text-align: center;
 }
 .picks-container{
     display: flex;
